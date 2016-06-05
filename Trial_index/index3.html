@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Web Application</title>
+		<script type="text/javascript" src ="jquery.js"></script>
+	</head>
+	<body>
+	<style type="text/css">
+		.big{
+			font-size: 20px;
+		}
+		.small{
+			font-size: 10px;
+		}
+		#green{
+			color: green;
+		}
+	</style>
+
+	<script type="text/javascript">
+		$(function(){
+			$("#green").css("font-size","35px");
+			$("#green").click(function(){
+				$("button:not(#green)").hide();
+				$(this).css("font-size","5px");
+				$(this).css("color","red");
+			});
+
+
+		});
+
+	</script>
+
+	<button class = "big">Button 1</button>
+	<button class = "small">Button 2</button>
+	<button id = "green" class= "big">Button 3</button>
+
+	<!-- Jquery selectors -->
+
+</body>
+</html>
