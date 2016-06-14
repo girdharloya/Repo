@@ -1,0 +1,209 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/nodejs', '/usr/bin/npm', 'install', '-g', 'js-yaml' ]
+2 info using npm@1.3.10
+3 info using node@v0.10.25
+4 verbose cache add [ 'js-yaml', null ]
+5 verbose cache add name=undefined spec="js-yaml" args=["js-yaml",null]
+6 verbose parsed url { protocol: null,
+6 verbose parsed url   slashes: null,
+6 verbose parsed url   auth: null,
+6 verbose parsed url   host: null,
+6 verbose parsed url   port: null,
+6 verbose parsed url   hostname: null,
+6 verbose parsed url   hash: null,
+6 verbose parsed url   search: null,
+6 verbose parsed url   query: null,
+6 verbose parsed url   pathname: 'js-yaml',
+6 verbose parsed url   path: 'js-yaml',
+6 verbose parsed url   href: 'js-yaml' }
+7 silly lockFile 27a75f82-js-yaml js-yaml
+8 verbose lock js-yaml /home/giri/.npm/27a75f82-js-yaml.lock
+9 verbose tar pack [ '/home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz',
+9 verbose tar pack   'js-yaml' ]
+10 verbose tarball /home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz
+11 verbose folder js-yaml
+12 silly lockFile b0d853df-tar-js-yaml tar://js-yaml
+13 verbose lock tar://js-yaml /home/giri/.npm/b0d853df-tar-js-yaml.lock
+14 silly lockFile 810335fd-07785-0-8699335600249469-tmp-tgz tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz
+15 verbose lock tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz /home/giri/.npm/810335fd-07785-0-8699335600249469-tmp-tgz.lock
+16 silly lockFile b0d853df-tar-js-yaml tar://js-yaml
+17 silly lockFile b0d853df-tar-js-yaml tar://js-yaml
+18 silly lockFile 810335fd-07785-0-8699335600249469-tmp-tgz tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz
+19 silly lockFile 810335fd-07785-0-8699335600249469-tmp-tgz tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz
+20 verbose tar unpack /home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz
+21 silly lockFile 4f6ea34f-07785-0-8699335600249469-package tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/package
+22 verbose lock tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/package /home/giri/.npm/4f6ea34f-07785-0-8699335600249469-package.lock
+23 silly lockFile 810335fd-07785-0-8699335600249469-tmp-tgz tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz
+24 verbose lock tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz /home/giri/.npm/810335fd-07785-0-8699335600249469-tmp-tgz.lock
+25 silly gunzTarPerm modes [ '755', '644' ]
+26 silly gunzTarPerm extractEntry package.json
+27 silly gunzTarPerm extractEntry README.md
+28 silly gunzTarPerm extractEntry index.js
+29 silly gunzTarPerm extractEntry bin/js-yaml.js
+30 silly gunzTarPerm extractEntry dist/js-yaml.js
+31 silly gunzTarPerm extractEntry dist/js-yaml.min.js
+32 silly gunzTarPerm extractEntry lib/js-yaml.js
+33 silly gunzTarPerm extractEntry lib/js-yaml/common.js
+34 silly gunzTarPerm extractEntry lib/js-yaml/dumper.js
+35 silly gunzTarPerm extractEntry lib/js-yaml/exception.js
+36 silly gunzTarPerm extractEntry lib/js-yaml/loader.js
+37 silly gunzTarPerm extractEntry lib/js-yaml/mark.js
+38 silly gunzTarPerm extractEntry lib/js-yaml/schema.js
+39 silly gunzTarPerm extractEntry lib/js-yaml/type.js
+40 silly gunzTarPerm extractEntry lib/js-yaml/schema/core.js
+41 silly gunzTarPerm extractEntry lib/js-yaml/schema/default_full.js
+42 silly gunzTarPerm extractEntry lib/js-yaml/schema/default_safe.js
+43 silly gunzTarPerm extractEntry lib/js-yaml/schema/failsafe.js
+44 silly gunzTarPerm extractEntry lib/js-yaml/schema/json.js
+45 silly gunzTarPerm extractEntry lib/js-yaml/type/binary.js
+46 silly gunzTarPerm extractEntry lib/js-yaml/type/int.js
+47 silly gunzTarPerm extractEntry lib/js-yaml/type/str.js
+48 silly gunzTarPerm extractEntry lib/js-yaml/type/map.js
+49 silly gunzTarPerm extractEntry lib/js-yaml/type/float.js
+50 silly gunzTarPerm extractEntry lib/js-yaml/type/bool.js
+51 silly gunzTarPerm extractEntry lib/js-yaml/type/omap.js
+52 silly gunzTarPerm extractEntry lib/js-yaml/type/pairs.js
+53 silly gunzTarPerm extractEntry lib/js-yaml/type/seq.js
+54 silly gunzTarPerm extractEntry lib/js-yaml/type/set.js
+55 silly gunzTarPerm extractEntry lib/js-yaml/type/merge.js
+56 silly gunzTarPerm extractEntry lib/js-yaml/type/timestamp.js
+57 silly gunzTarPerm extractEntry lib/js-yaml/type/null.js
+58 silly gunzTarPerm extractEntry lib/js-yaml/type/js/function.js
+59 silly gunzTarPerm extractEntry lib/js-yaml/type/js/regexp.js
+60 silly gunzTarPerm extractEntry lib/js-yaml/type/js/undefined.js
+61 silly lockFile 4f6ea34f-07785-0-8699335600249469-package tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/package
+62 silly lockFile 4f6ea34f-07785-0-8699335600249469-package tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/package
+63 silly lockFile 810335fd-07785-0-8699335600249469-tmp-tgz tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz
+64 silly lockFile 810335fd-07785-0-8699335600249469-tmp-tgz tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/tmp.tgz
+65 verbose tar pack [ '/home/giri/.npm/js-yaml/3.6.1/package.tgz',
+65 verbose tar pack   '/home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/package' ]
+66 verbose tarball /home/giri/.npm/js-yaml/3.6.1/package.tgz
+67 verbose folder /home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/package
+68 silly lockFile 4f6ea34f-07785-0-8699335600249469-package tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/package
+69 verbose lock tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/package /home/giri/.npm/4f6ea34f-07785-0-8699335600249469-package.lock
+70 silly lockFile 288efd8a-ri-npm-js-yaml-3-6-1-package-tgz tar:///home/giri/.npm/js-yaml/3.6.1/package.tgz
+71 verbose lock tar:///home/giri/.npm/js-yaml/3.6.1/package.tgz /home/giri/.npm/288efd8a-ri-npm-js-yaml-3-6-1-package-tgz.lock
+72 silly lockFile 4f6ea34f-07785-0-8699335600249469-package tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/package
+73 silly lockFile 4f6ea34f-07785-0-8699335600249469-package tar:///home/giri/tmp/npm-12285-fkano5EY/1465927807785-0.8699335600249469/package
+74 silly lockFile 288efd8a-ri-npm-js-yaml-3-6-1-package-tgz tar:///home/giri/.npm/js-yaml/3.6.1/package.tgz
+75 silly lockFile 288efd8a-ri-npm-js-yaml-3-6-1-package-tgz tar:///home/giri/.npm/js-yaml/3.6.1/package.tgz
+76 silly lockFile 5fd66a74-e-giri-npm-js-yaml-3-6-1-package /home/giri/.npm/js-yaml/3.6.1/package
+77 verbose lock /home/giri/.npm/js-yaml/3.6.1/package /home/giri/.npm/5fd66a74-e-giri-npm-js-yaml-3-6-1-package.lock
+78 silly lockFile 5fd66a74-e-giri-npm-js-yaml-3-6-1-package /home/giri/.npm/js-yaml/3.6.1/package
+79 silly lockFile 5fd66a74-e-giri-npm-js-yaml-3-6-1-package /home/giri/.npm/js-yaml/3.6.1/package
+80 verbose tar unpack /home/giri/.npm/js-yaml/3.6.1/package.tgz
+81 silly lockFile 4b498967-e-giri-npm-js-yaml-3-6-1-package tar:///home/giri/.npm/js-yaml/3.6.1/package
+82 verbose lock tar:///home/giri/.npm/js-yaml/3.6.1/package /home/giri/.npm/4b498967-e-giri-npm-js-yaml-3-6-1-package.lock
+83 silly lockFile 288efd8a-ri-npm-js-yaml-3-6-1-package-tgz tar:///home/giri/.npm/js-yaml/3.6.1/package.tgz
+84 verbose lock tar:///home/giri/.npm/js-yaml/3.6.1/package.tgz /home/giri/.npm/288efd8a-ri-npm-js-yaml-3-6-1-package-tgz.lock
+85 silly gunzTarPerm modes [ '755', '644' ]
+86 silly gunzTarPerm extractEntry package.json
+87 silly gunzTarPerm extractEntry README.md
+88 silly gunzTarPerm extractEntry index.js
+89 silly gunzTarPerm extractEntry bin/js-yaml.js
+90 silly gunzTarPerm extractEntry dist/js-yaml.js
+91 silly gunzTarPerm extractEntry dist/js-yaml.min.js
+92 silly gunzTarPerm extractEntry lib/js-yaml.js
+93 silly gunzTarPerm extractEntry lib/js-yaml/common.js
+94 silly gunzTarPerm extractEntry lib/js-yaml/dumper.js
+95 silly gunzTarPerm extractEntry lib/js-yaml/exception.js
+96 silly gunzTarPerm extractEntry lib/js-yaml/loader.js
+97 silly gunzTarPerm extractEntry lib/js-yaml/mark.js
+98 silly gunzTarPerm extractEntry lib/js-yaml/schema.js
+99 silly gunzTarPerm extractEntry lib/js-yaml/type.js
+100 silly gunzTarPerm extractEntry lib/js-yaml/schema/core.js
+101 silly gunzTarPerm extractEntry lib/js-yaml/schema/default_full.js
+102 silly gunzTarPerm extractEntry lib/js-yaml/schema/default_safe.js
+103 silly gunzTarPerm extractEntry lib/js-yaml/schema/failsafe.js
+104 silly gunzTarPerm extractEntry lib/js-yaml/schema/json.js
+105 silly gunzTarPerm extractEntry lib/js-yaml/type/binary.js
+106 silly gunzTarPerm extractEntry lib/js-yaml/type/int.js
+107 silly gunzTarPerm extractEntry lib/js-yaml/type/str.js
+108 silly gunzTarPerm extractEntry lib/js-yaml/type/map.js
+109 silly gunzTarPerm extractEntry lib/js-yaml/type/float.js
+110 silly gunzTarPerm extractEntry lib/js-yaml/type/bool.js
+111 silly gunzTarPerm extractEntry lib/js-yaml/type/omap.js
+112 silly gunzTarPerm extractEntry lib/js-yaml/type/pairs.js
+113 silly gunzTarPerm extractEntry lib/js-yaml/type/seq.js
+114 silly gunzTarPerm extractEntry lib/js-yaml/type/set.js
+115 silly gunzTarPerm extractEntry lib/js-yaml/type/merge.js
+116 silly gunzTarPerm extractEntry lib/js-yaml/type/timestamp.js
+117 silly gunzTarPerm extractEntry lib/js-yaml/type/null.js
+118 silly gunzTarPerm extractEntry lib/js-yaml/type/js/function.js
+119 silly gunzTarPerm extractEntry lib/js-yaml/type/js/regexp.js
+120 silly gunzTarPerm extractEntry lib/js-yaml/type/js/undefined.js
+121 silly lockFile 4b498967-e-giri-npm-js-yaml-3-6-1-package tar:///home/giri/.npm/js-yaml/3.6.1/package
+122 silly lockFile 4b498967-e-giri-npm-js-yaml-3-6-1-package tar:///home/giri/.npm/js-yaml/3.6.1/package
+123 silly lockFile 288efd8a-ri-npm-js-yaml-3-6-1-package-tgz tar:///home/giri/.npm/js-yaml/3.6.1/package.tgz
+124 silly lockFile 288efd8a-ri-npm-js-yaml-3-6-1-package-tgz tar:///home/giri/.npm/js-yaml/3.6.1/package.tgz
+125 verbose chmod /home/giri/.npm/js-yaml/3.6.1/package.tgz 644
+126 verbose chown /home/giri/.npm/js-yaml/3.6.1/package.tgz [ 1000, 1000 ]
+127 silly lockFile 27a75f82-js-yaml js-yaml
+128 silly lockFile 27a75f82-js-yaml js-yaml
+129 silly resolved [ { name: 'js-yaml',
+129 silly resolved     version: '3.6.1',
+129 silly resolved     description: 'YAML 1.2 parser and serializer',
+129 silly resolved     keywords: [ 'yaml', 'parser', 'serializer', 'pyyaml' ],
+129 silly resolved     homepage: 'https://github.com/nodeca/js-yaml',
+129 silly resolved     author: { name: 'Vladimir Zapparov', email: 'dervus.grim@gmail.com' },
+129 silly resolved     contributors: [ [Object], [Object], [Object] ],
+129 silly resolved     license: 'MIT',
+129 silly resolved     repository: { type: 'git', url: 'git://github.com/nodeca/js-yaml' },
+129 silly resolved     files: [ 'index.js', 'lib/', 'bin/', 'dist/' ],
+129 silly resolved     bin: { 'js-yaml': 'bin/js-yaml.js' },
+129 silly resolved     dependencies: { argparse: '^1.0.7', esprima: '^2.6.0' },
+129 silly resolved     devDependencies:
+129 silly resolved      { ansi: '*',
+129 silly resolved        benchmark: '*',
+129 silly resolved        browserify: '^13.0.0',
+129 silly resolved        codemirror: '^5.13.4',
+129 silly resolved        eslint: '^2.8.0',
+129 silly resolved        istanbul: '*',
+129 silly resolved        mocha: '*',
+129 silly resolved        'uglify-js': '^2.6.1' },
+129 silly resolved     scripts: { test: 'make test' },
+129 silly resolved     readme: 'JS-YAML - YAML 1.2 parser / writer for JavaScript\n=================================================\n\n[![Build Status](https://travis-ci.org/nodeca/js-yaml.svg?branch=master)](https://travis-ci.org/nodeca/js-yaml)\n[![NPM version](https://img.shields.io/npm/v/js-yaml.svg)](https://www.npmjs.org/package/js-yaml)\n\n__[Online Demo](http://nodeca.github.com/js-yaml/)__\n\n\nThis is an implementation of [YAML](http://yaml.org/), a human friendly data\nserialization language. Started as [PyYAML](http://pyyaml.org/) port, it was\ncompletely rewritten from scratch. Now it\'s very fast, and supports 1.2 spec.\n\n\nInstallation\n------------\n\n### YAML module for node.js\n\n```\nnpm install js-yaml\n```\n\n\n### CLI executable\n\nIf you want to inspect your YAML files from CLI, install js-yaml globally:\n\n```\nnpm install -g js-yaml\n```\n\n#### Usage\n\n```\nusage: js-yaml [-h] [-v] [-c] [-t] file\n\nPositional arguments:\n  file           File with YAML document(s)\n\nOptional arguments:\n  -h, --help     Show this help message and exit.\n  -v, --version  Show program\'s version number and exit.\n  -c, --compact  Display errors in compact mode\n  -t, --trace    Show stack trace on error\n```\n\n\n### Bundled YAML library for browsers\n\n``` html\n<!-- esprima required only for !!js/function -->\n<script src="esprima.js"></script>\n<script src="js-yaml.min.js"></script>\n<script type="text/javascript">\nvar doc = jsyaml.load(\'greeting: hello\\nname: world\');\n</script>\n```\n\nBrowser support was done mostly for online demo. If you find any errors - feel\nfree to send pull requests with fixes. Also note, that IE and other old browsers\nneeds [es5-shims](https://github.com/kriskowal/es5-shim) to operate.\n\nNotes:\n\n1. We have no resources to support browserified version. Don\'t expect it to be\n   well tested. Don\'t expect fast fixes if something goes wrong there.\n2. `!!js/function` in browser bundle will not work by default. If you really need\n   it - load `esprima` parser first (via amd or directly).\n3. `!!bin` in browser will return `Array`, because browsers do not support\n   node.js `Buffer` and adding Buffer shims is completely useless on practice.\n\n\nAPI\n---\n\nHere we cover the most \'useful\' methods. If you need advanced details (creating\nyour own tags), see [wiki](https://github.com/nodeca/js-yaml/wiki) and\n[examples](https://github.com/nodeca/js-yaml/tree/master/examples) for more\ninfo.\n\n``` javascript\nyaml = require(\'js-yaml\');\nfs   = require(\'fs\');\n\n// Get document, or throw exception on error\ntry {\n  var doc = yaml.safeLoad(fs.readFileSync(\'/home/ixti/example.yml\', \'utf8\'));\n  console.log(doc);\n} catch (e) {\n  console.log(e);\n}\n```\n\n\n### safeLoad (string [ , options ])\n\n**Recommended loading way.** Parses `string` as single YAML document. Returns a JavaScript\nobject or throws `YAMLException` on error. By default, does not support regexps,\nfunctions and undefined. This method is safe for untrusted data.\n\noptions:\n\n- `filename` _(default: null)_ - string to be used as a file path in\n  error/warning messages.\n- `onWarning` _(default: null)_ - function to call on warning messages.\n  Loader will throw on warnings if this function is not provided.\n- `schema` _(default: `DEFAULT_SAFE_SCHEMA`)_ - specifies a schema to use.\n  - `FAILSAFE_SCHEMA` - only strings, arrays and plain objects:\n    http://www.yaml.org/spec/1.2/spec.html#id2802346\n  - `JSON_SCHEMA` - all JSON-supported types:\n    http://www.yaml.org/spec/1.2/spec.html#id2803231\n  - `CORE_SCHEMA` - same as `JSON_SCHEMA`:\n    http://www.yaml.org/spec/1.2/spec.html#id2804923\n  - `DEFAULT_SAFE_SCHEMA` - all supported YAML types, without unsafe ones\n    (`!!js/undefined`, `!!js/regexp` and `!!js/function`):\n    http://yaml.org/type/\n  - `DEFAULT_FULL_SCHEMA` - all supported YAML types.\n- `json` _(default: false)_ - compatibility with JSON.parse behaviour. If true, then duplicate keys in a mapping will override values rather than throwing an error.\n\nNOTE: This function **does not** understand multi-document sources, it throws\nexception on those.\n\nNOTE: JS-YAML **does not** support schema-specific tag resolution restrictions.\nSo, JSON schema is not as strict as defined in the YAML specification.\nIt allows numbers in any notation, use `Null` and `NULL` as `null`, etc.\nCore schema also has no such restrictions. It allows binary notation for integers.\n\n\n### load (string [ , options ])\n\n**Use with care with untrusted sources**. The same as `safeLoad()` but uses\n`DEFAULT_FULL_SCHEMA` by default - adds some JavaScript-specific types:\n`!!js/function`, `!!js/regexp` and `!!js/undefined`. For untrusted sources you\nmust additionally validate object structure, to avoid injections:\n\n``` javascript\nvar untrusted_code = \'"toString": !<tag:yaml.org,2002:js/function> "function (){very_evil_thing();}"\';\n\n// I\'m just converting that string, what could possibly go wrong?\nrequire(\'js-yaml\').load(untrusted_code) + \'\'\n```\n\n\n### safeLoadAll (string, iterator [ , options ])\n\nSame as `safeLoad()`, but understands multi-document sources and apply\n`iterator` to each document.\n\n``` javascript\nvar yaml = require(\'js-yaml\');\n\nyaml.safeLoadAll(data, function (doc) {\n  console.log(doc);\n});\n```\n\n\n### loadAll (string, iterator [ , options ])\n\nSame as `safeLoadAll()` but uses `DEFAULT_FULL_SCHEMA` by default.\n\n\n### safeDump (object [ , options ])\n\nSerializes `object` as YAML document. Uses `DEFAULT_SAFE_SCHEMA`, so it will\nthrow exception if you try to dump regexps or functions. However, you can\ndisable exceptions by `skipInvalid` option.\n\noptions:\n\n- `indent` _(default: 2)_ - indentation width to use (in spaces).\n- `skipInvalid` _(default: false)_ - do not throw on invalid types (like function\n  in the safe schema) and skip pairs and single values with such types.\n- `flowLevel` (default: -1) - specifies level of nesting, when to switch from\n  block to flow style for collections. -1 means block style everwhere\n- `styles` - "tag" => "style" map. Each tag may have own set of styles.\n- `schema` _(default: `DEFAULT_SAFE_SCHEMA`)_ specifies a schema to use.\n- `sortKeys` _(default: `false`)_ - if `true`, sort keys when dumping YAML. If a\n  function, use the function to sort the keys.\n- `lineWidth` _(default: `80`)_ - set max line width.\n- `noRefs` _(default: `false`)_ - if `true`, don\'t convert duplicate objects into references\n- `noCompatMode` _(default: `false`)_ - if `true` don\'t try to be compatible with older\n  yaml versions. Currently: don\'t quote "yes", "no" and so on, as required for YAML 1.1\n\nstyles:\n\n``` none\n!!null\n  "canonical"   => "~"\n\n!!int\n  "binary"      => "0b1", "0b101010", "0b1110001111010"\n  "octal"       => "01", "052", "016172"\n  "decimal"     => "1", "42", "7290"\n  "hexadecimal" => "0x1", "0x2A", "0x1C7A"\n\n!!null, !!bool, !!float\n  "lowercase"   => "null", "true", "false", ".nan", \'.inf\'\n  "uppercase"   => "NULL", "TRUE", "FALSE", ".NAN", \'.INF\'\n  "camelcase"   => "Null", "True", "False", ".NaN", \'.Inf\'\n```\n\nBy default, !!int uses `decimal`, and !!null, !!bool, !!float use `lowercase`.\n\n\n\n### dump (object [ , options ])\n\nSame as `safeDump()` but without limits (uses `DEFAULT_FULL_SCHEMA` by default).\n\n\nSupported YAML types\n--------------------\n\nThe list of standard YAML tags and corresponding JavaScipt types. See also\n[YAML tag discussion](http://pyyaml.org/wiki/YAMLTagDiscussion) and\n[YAML types repository](http://yaml.org/type/).\n\n```\n!!null \'\'                   # null\n!!bool \'yes\'                # bool\n!!int \'3...\'                # number\n!!float \'3.14...\'           # number\n!!binary \'...base64...\'     # buffer\n!!timestamp \'YYYY-...\'      # date\n!!omap [ ... ]              # array of key-value pairs\n!!pairs [ ... ]             # array or array pairs\n!!set { ... }               # array of objects with given keys and null values\n!!str \'...\'                 # string\n!!seq [ ... ]               # array\n!!map { ... }               # object\n```\n\n**JavaScript-specific tags**\n\n```\n!!js/regexp /pattern/gim            # RegExp\n!!js/undefined \'\'                   # Undefined\n!!js/function \'function () {...}\'   # Function\n```\n\nCaveats\n-------\n\nNote, that you use arrays or objects as key in JS-YAML. JS does not allow objects\nor array as keys, and stringifies (by calling .toString method) them at the\nmoment of adding them.\n\n``` yaml\n---\n? [ foo, bar ]\n: - baz\n? { foo: bar }\n: - baz\n  - baz\n```\n\n``` javascript\n{ "foo,bar": ["baz"], "[object Object]": ["baz", "baz"] }\n```\n\nAlso, reading of properties on implicit block mapping keys is not supported yet.\nSo, the following YAML document cannot be loaded.\n\n``` yaml\n&anchor foo:\n  foo: bar\n  *anchor: duplicate key\n  baz: bat\n  *anchor: duplicate key\n```\n\n\nBreaking changes in 2.x.x -> 3.x.x\n----------------------------------\n\nIf you have not used __custom__ tags or loader classes and not loaded yaml\nfiles via `require()` - no changes needed. Just upgrade library.\n\nOtherwise, you should:\n\n1. Replace all occurences of `require(\'xxxx.yml\')` by `fs.readFileSync()` +\n  `yaml.safeLoad()`.\n2. rewrite your custom tags constructors and custom loader\n  classes, to conform new API. See\n  [examples](https://github.com/nodeca/js-yaml/tree/master/examples) and\n  [wiki](https://github.com/nodeca/js-yaml/wiki) for details.\n\n\nLicense\n-------\n\nView the [LICENSE](https://github.com/nodeca/js-yaml/blob/master/LICENSE) file\n(MIT).\n',
+129 silly resolved     readmeFilename: 'README.md',
+129 silly resolved     bugs: { url: 'https://github.com/nodeca/js-yaml/issues' },
+129 silly resolved     _id: 'js-yaml@3.6.1',
+129 silly resolved     dist: { shasum: '9896ef95561013f7b91c45683bf3c1ef8f2965f1' },
+129 silly resolved     _from: 'js-yaml',
+129 silly resolved     _resolved: 'https://registry.npmjs.org/js-yaml/-/js-yaml-3.6.1.tgz' } ]
+130 info install js-yaml@3.6.1 into /usr/local/lib
+131 info installOne js-yaml@3.6.1
+132 info /usr/local/lib/node_modules/js-yaml unbuild
+133 verbose tar unpack /home/giri/.npm/js-yaml/3.6.1/package.tgz
+134 silly lockFile 04dd2e8a-r-local-lib-node-modules-js-yaml tar:///usr/local/lib/node_modules/js-yaml
+135 verbose lock tar:///usr/local/lib/node_modules/js-yaml /home/giri/.npm/04dd2e8a-r-local-lib-node-modules-js-yaml.lock
+136 silly lockFile 288efd8a-ri-npm-js-yaml-3-6-1-package-tgz tar:///home/giri/.npm/js-yaml/3.6.1/package.tgz
+137 verbose lock tar:///home/giri/.npm/js-yaml/3.6.1/package.tgz /home/giri/.npm/288efd8a-ri-npm-js-yaml-3-6-1-package-tgz.lock
+138 silly gunzTarPerm modes [ '755', '644' ]
+139 error Error: EACCES, mkdir '/usr/local/lib/node_modules'
+139 error  { [Error: EACCES, mkdir '/usr/local/lib/node_modules']
+139 error   errno: 3,
+139 error   code: 'EACCES',
+139 error   path: '/usr/local/lib/node_modules',
+139 error   fstream_type: 'Directory',
+139 error   fstream_path: '/usr/local/lib/node_modules/js-yaml',
+139 error   fstream_class: 'DirWriter',
+139 error   fstream_stack:
+139 error    [ '/usr/lib/nodejs/fstream/lib/writer.js:171:23',
+139 error      '/usr/lib/nodejs/mkdirp/index.js:37:53',
+139 error      'Object.oncomplete (fs.js:107:15)' ] }
+140 error Please try running this command again as root/Administrator.
+141 error System Linux 3.19.0-25-generic
+142 error command "/usr/bin/nodejs" "/usr/bin/npm" "install" "-g" "js-yaml"
+143 error cwd /home/giri/Repo/WebApllication
+144 error node -v v0.10.25
+145 error npm -v 1.3.10
+146 error path /usr/local/lib/node_modules
+147 error fstream_path /usr/local/lib/node_modules/js-yaml
+148 error fstream_type Directory
+149 error fstream_class DirWriter
+150 error code EACCES
+151 error errno 3
+152 error stack Error: EACCES, mkdir '/usr/local/lib/node_modules'
+153 error fstream_stack /usr/lib/nodejs/fstream/lib/writer.js:171:23
+153 error fstream_stack /usr/lib/nodejs/mkdirp/index.js:37:53
+153 error fstream_stack Object.oncomplete (fs.js:107:15)
+154 verbose exit [ 3, true ]
